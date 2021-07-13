@@ -139,8 +139,8 @@ a {/*text color for <a> tag with no underline*/
 .proj{ /*set the non-active projects*/
     display: inline-block;
     margin-bottom: 10px;
-    width: 40%;
-    height: 100px;
+    width: 45%;
+    height: 150px;
     padding: 10px;
     border:3px solid rgb(119, 150, 200);
     position: relative;
@@ -157,9 +157,7 @@ a {/*text color for <a> tag with no underline*/
     z-index: 5;
     cursor : pointer;
 }
-#ledwall{
-   /* background-image: url("../images/LED-Wall.png");*/
-}
+
 .contact{
     margin-bottom: 0%;
 }
@@ -205,7 +203,16 @@ a {/*text color for <a> tag with no underline*/
     z-index: 5;
     cursor : pointer;
 }
-
+.form {
+    margin: 20px;
+  }
+  
+  .form input,textarea {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 80%;
+  }
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     .about h2, .work h2, .contact h2 {
