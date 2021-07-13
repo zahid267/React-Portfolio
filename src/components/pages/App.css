@@ -1,0 +1,259 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #d9dcd6;  /*body background color*/
+    color: #3c2d92;
+}
+
+header {
+    display: flex;
+  /* Defines how to distribute the empty space between child elements */
+   justify-content: space-between;
+    /*set the header font, background-color and text color*/
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    margin: 0;
+    top: 0;
+}
+header h1 {
+    /*h1 size for the header*/
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+header nav, .contact nav {
+    /*header's nav content will float to the right side*/
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul, .contact nav ul {
+    list-style-type: none;  /*no style for ul*/
+}
+
+header nav ul li, .contact nav ul li {
+    /*header's list will be on same line*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {/*text color for <a> tag with no underline*/
+    color: #ffffff;
+    text-decoration: none;
+}
+.hero {
+    /*hero class background image and size*/
+    height: 200px;   
+    width: 100%;
+    margin-bottom: 25px;
+ /*   background-image: url("/images/port_bg.jpg");*/
+    background-size: cover;
+    background-position: center;
+}
+.hero h2{
+    float: right;
+    background-color: #d9dcd6;
+    color: midnightblue;
+    padding: 10px;
+    font-size: 200%;
+    margin-top: 120px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.content {
+    /*content class will take 97.5% of the page width and displayed as flex*/
+    width: 97.5%;
+    display:flex;
+    margin-left: 20px;
+    color: navy;
+    flex-wrap:wrap;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.about, .work, .contact{
+    /*set the padding, height, font, backgrount-color and text color for these classes*/
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #3c2d92;
+    border-bottom: 10px solid gray;
+}
+.about h2, .work h2, .contact h2 {
+    width: 12%;
+    float: left;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 36px;
+}
+
+.about div, .work div, .contact div{    /*separate the section heading with a vertical line*/
+    border-left:3px solid navy;
+    padding-left: 20px;
+    width: 88%;
+    padding-bottom: 10px;
+}
+.about img{
+    float: right;
+}
+.work div ul{
+    padding: 10px 30px;
+}
+.project{/*set the active project css*/
+    display: block;
+    margin-bottom: 10px;
+    width: 83%;
+    height: 100px;
+    padding: 5px;
+    border:3px solid rgb(119, 150, 200);
+    position: relative;
+    background-color:rgba(92, 143, 163, 0.3);
+    margin: 5px;
+  /*  background-image:url("/images/code_refactor.png");*/
+    opacity: 0.5;
+}
+.project1{/*set the active project css*/
+    display: block;
+    margin-bottom: 10px;
+    width: 83%;
+    height: 100px;
+    padding: 10px;
+    border:3px solid rgb(119, 150, 200);
+    position: relative;
+    background-color:rgba(92, 143, 163, 0.3);
+    margin: 5px;
+  /*  background-image:url("/images/Sports_Pad_Demo.gif");*/
+    opacity: 0.8;
+}
+.proj{ /*set the non-active projects*/
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 45%;
+    height: 150px;
+    padding: 10px;
+    border:3px solid rgb(119, 150, 200);
+    position: relative;
+    background-color:rgb(92, 143, 163);
+    margin: 5px;
+}
+.projlbl{   /*project label*/
+    float: left;
+    background-color: #d9dcd6;
+    margin-top: 0px;
+    color: midnightblue;
+    padding: 0, 10px;
+    font-size: 175%;
+    z-index: 5;
+    cursor : pointer;
+}
+
+.contact{
+    margin-bottom: 0%;
+}
+.contact div nav{
+    float: left;
+}
+.contact a {/*text color for <a> tag with no underline*/
+    color: navy;
+    text-decoration: none;
+}
+
+.footer {
+    /*set the footer font family and center alignment*/
+    padding: 0;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    bottom: 0;
+    margin: 0;
+}
+
+.footer h2 {
+    /*footer h2 font size*/
+    font-size: 20px;
+}
+
+.git-icons:before {
+	content: "\f296  ";   /*\f296, f09b*/
+    display:inline-block;
+  color:rgb(3, 77, 3);
+  padding:0 10px 0 10px;
+  width:10px;
+  font-weight:bolder;
+  font-size: larger;
+}
+.projgit{   /*project label*/
+    float: right;
+    background-color: #d9dcd6;
+    margin-top: 0px;
+    color: midnightblue;
+    padding: 0, 10px;
+    font-size: 175%;
+    z-index: 5;
+    cursor : pointer;
+}
+.form {
+    margin: 20px;
+  }
+  
+  .form input,textarea {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 80%;
+  }
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    .about h2, .work h2, .contact h2 {
+        font-size: 26px;
+    }
+  }
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    .header{
+        display: block;
+    }
+     header nav, .contact nav {
+        padding-top: 0;
+    }
+    .about, .work, .contact{
+        display: block;
+    }
+    .about h2, .work h2, .contact h2 {
+        width: 100%;
+        float:none;
+        padding-right:none;
+        text-align: left;
+        font-size: 20px;
+    }
+    .about div, .work div, .contact div{    /*separate the section heading with a horizontal line*/
+        border-left:none;
+        border-top: 3px solid navy;;
+    }
+    .projlbl{   /*project label*/
+        font-size: 150%;   
+    }
+  }
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+    .header{
+      display: block;
+    }
+    .about h2, .work h2, .contact h2 {
+        font-size: 18px;
+    }
+    .projlbl{   /*project label*/
+        font-size: 100%;   
+    }
+  }
