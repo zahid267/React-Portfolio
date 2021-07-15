@@ -211,7 +211,7 @@ a {/*text color for <a> tag with no underline*/
     display: block;
     margin-top: 10px;
     margin-bottom: 5px;
-    width: 80%;
+    width: 90%;
   }
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {

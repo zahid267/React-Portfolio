@@ -78,13 +78,15 @@ function Contact() {
  //   setPassword('');
     setEmail('');
     setMessage('');
+    setErrorMessage('');
   };
 
   return (
     
-    <div>
+    <div className="work">
       <h1>Contact</h1>
-      <p>Hello {userName}</p>
+      <div>
+      <h3>Hello {userName}</h3>
       <form className="form">
       <input
           value={userName}
@@ -100,7 +102,7 @@ function Contact() {
           type="email"
           placeholder="Email"
         />
-        <textarea name="message" cols="80" rows="5" onChange={handleInputChange} placeholder="Message">
+        <textarea name="message" cols="80" rows="8" onChange={handleInputChange} placeholder="Message">
           {message}
         </textarea>
 
@@ -111,6 +113,7 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      </div>
     </div>
   );
 }

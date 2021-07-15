@@ -12,8 +12,7 @@ export default function Portfolio() {
                     <small>HTML/CSS</small>
                 </label>
                 <label className="projgit" onClick={() => window.open('https://github.com/zahid267/code_refactor')}>
-                <strong>Code Refactor</strong><br />
-                  <small>Git Repo</small>
+                  <strong>Git Repo</strong>
                 </label>
             </span>
 
@@ -24,8 +23,7 @@ export default function Portfolio() {
                     <small>Server Side APIs</small>
                 </label>
                 <label className="projgit" onClick={() => window.open('https://github.com/zahid267/SportsPad')}>
-                <strong>Sports Pad</strong><br />
-                  <small>Git Repo</small>
+                <strong>Git Repo</strong>
                 </label>
             </span>
             
@@ -35,8 +33,7 @@ export default function Portfolio() {
                     <small>Express.js</small>
                 </label>
                 <label className="projgit" onClick={() => window.open('https://github.com/zahid267/Note_Taker')}>
-                <strong>Note Taker</strong><br />
-                  <small>Git Repo</small>
+                <strong>Git Repo</strong>
                 </label>
             </span>
             <span className="proj" style={{backgroundImage:'url("/images/shop-list.png")'}}>
@@ -45,8 +42,7 @@ export default function Portfolio() {
                     <small>Model View Controller</small>
                 </label>
                 <label className="projgit" onClick={() => window.open('https://github.com/zahid267/Revenue-Tracker')}>
-                <strong title="Project 2 - Marketing Revenue Tracker">Revenue Tracker</strong><br />
-                  <small>Git Repo</small>
+                <strong title="Project 2 - Marketing Revenue Tracker">Git Repo</strong>
                 </label>
             </span>
              
@@ -56,8 +52,7 @@ export default function Portfolio() {
                     <small>NoSQL - MongoDB</small>
                 </label>
                 <label className="projgit" onClick={() => window.open('https://github.com/zahid267/workout_tracker')}>
-                <strong>Workout Tracker</strong><br />
-                  <small>Git Repo</small>
+                <strong>Git Repo</strong>
                 </label>
             </span>
             <span className="proj" style={{backgroundImage:'url("/images/Budget-Tracker-screenshot.png")'}}>
@@ -66,8 +61,7 @@ export default function Portfolio() {
                     <small title="Offline Installation">PWA - NoSQL</small>
                 </label>
                 <label className="projgit" onClick={() => window.open('https://github.com/zahid267/Budget-Tracker')}>
-                <strong title="Online/Offline Budget Trackers">Budget Tracker</strong><br />
-                  <small>Git Repo</small>
+                <strong title="Online/Offline Budget Trackers">Git Repo</strong>
                 </label>
             </span>
                          
