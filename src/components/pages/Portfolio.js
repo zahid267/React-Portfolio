@@ -1,33 +1,34 @@
 import React from 'react';
 import './App.css';
+//import code_refactor from '/public/images/code_refactor.png';
 
 export default function Portfolio() {
   return (
     <div className="work">
       <h1>Portfolio</h1>
       <div>
-          <span className="proj" style={{backgroundImage:'url("/images/code_refactor.png")'}}>
+          <span className="proj">
                 <label className="projlbl" onClick={() => window.open('https://zahid267.github.io/code_refactor/')}>
                     <strong>Code Refactor</strong><br/>
-                    <small>HTML/CSS</small>
+                    <small>HTML/CSS</small><br />
+                  <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/code_refactor')}>Git Repo</label>
                 </label>
-                <label className="projgit" onClick={() => window.open('https://github.com/zahid267/code_refactor')}>
-                  <strong>Git Repo</strong>
-                </label>
+                <img src={'images/code_refactor.png'} alt={'Code Refactor'}  width={`80%`} height={'100%'} />
+                
             </span>
 
 
-            <span className="proj" style={{backgroundImage:'url("/images/Sports_Pad_Demo.gif")'}}>
+            <span className="proj">
                 <label className="projlbl" onClick={() => window.open('https://zahid267.github.io/SportsPad/')}>
                     <strong>Sports Pad</strong><br />
-                    <small>Server Side APIs</small>
+                    <small>Server Side APIs</small><br />
+                    <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/SportsPad')}>Git Repo</label>
                 </label>
-                <label className="projgit" onClick={() => window.open('https://github.com/zahid267/SportsPad')}>
-                <strong>Git Repo</strong>
-                </label>
+                <img src={'images/Sports_Pad_Demo.gif'} alt={'Sports Pad'}  width={`80%`} height={'100%'} />
+                
             </span>
             
-            <span className="proj" style={{backgroundImage:'url("/images/Note_Taker_Demo.gif")'}}>
+            <span className="proj" style={{backgroundImage:'url("images/Note_Taker_Demo.gif")'}}>
                 <label className="projlbl" onClick={() => window.open('https://note-taker-zahid.herokuapp.com/')}>
                     <strong>Note Taker</strong><br />
                     <small>Express.js</small>
