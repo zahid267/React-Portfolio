@@ -13,7 +13,7 @@ export default function Portfolio() {
                     <small>HTML/CSS</small><br />
                   <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/code_refactor')}>Git Repo</label>
                 </label>
-                <img src={'images/code_refactor.png'} alt={'Code Refactor'}  width={`80%`} height={'100%'} />
+                <img src={'/images/code_refactor.png'} alt={'Code Refactor'}  width={`80%`} height={'100%'} />
                 
             </span>
 
@@ -25,45 +25,40 @@ export default function Portfolio() {
                     <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/SportsPad')}>Git Repo</label>
                 </label>
                 <img src={'images/Sports_Pad_Demo.gif'} alt={'Sports Pad'}  width={`80%`} height={'100%'} />
-                
             </span>
             
-            <span className="proj" style={{backgroundImage:'url("images/Note_Taker_Demo.gif")'}}>
+            <span className="proj">
                 <label className="projlbl" onClick={() => window.open('https://note-taker-zahid.herokuapp.com/')}>
                     <strong>Note Taker</strong><br />
-                    <small>Express.js</small>
+                    <small>Express.js</small><br />
+                    <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/Note_Taker')}>Git Repo</label>
                 </label>
-                <label className="projgit" onClick={() => window.open('https://github.com/zahid267/Note_Taker')}>
-                <strong>Git Repo</strong>
-                </label>
+                <img src={'images/Note_Taker_Demo.gif'} alt={'Note Taker'}  width={`80%`} height={'100%'} />
             </span>
-            <span className="proj" style={{backgroundImage:'url("/images/shop-list.png")'}}>
+            <span className="proj">
                 <label className="projlbl" onClick={() => window.open('https://murmuring-headland-20273.herokuapp.com/')}>
                     <strong title="Project 2 - Marketing Revenue Tracker">Revenue Tracker</strong><br />
-                    <small>Model View Controller</small>
+                    <small>Model View Controller</small><br />
+                    <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/Revenue-Tracker')}>Git Repo</label>
                 </label>
-                <label className="projgit" onClick={() => window.open('https://github.com/zahid267/Revenue-Tracker')}>
-                <strong title="Project 2 - Marketing Revenue Tracker">Git Repo</strong>
-                </label>
+                <img src={'images/shop-list.png'} alt={'Marketing Revenue Tracker'}  width={`80%`} height={'100%'} />
             </span>
              
-            <span className="proj" style={{backgroundImage:'url("/images/Fitness_Tracker.gif")'}}>
+            <span className="proj">
                 <label className="projlbl" onClick={() => window.open('https://degrassi-parliament-00065.herokuapp.com/')}>
                     <strong >Workout Tracker</strong><br />
-                    <small>NoSQL - MongoDB</small>
+                    <small>NoSQL - MongoDB</small><br />
+                    <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/workout_tracker')}>Git Repo</label>
                 </label>
-                <label className="projgit" onClick={() => window.open('https://github.com/zahid267/workout_tracker')}>
-                <strong>Git Repo</strong>
-                </label>
+                <img src={'images/Fitness_Tracker.gif'} alt={'Workout Tracker'}  width={`80%`} height={'100%'} />
             </span>
-            <span className="proj" style={{backgroundImage:'url("/images/Budget-Tracker-screenshot.png")'}}>
+            <span className="proj">
                 <label className="projlbl" onClick={() => window.open('https://fierce-fjord-72791.herokuapp.com/')}>
                     <strong alt="Online/Offline Budget Trackers">Budget Tracker</strong><br />
-                    <small title="Offline Installation">PWA - NoSQL</small>
+                    <small title="Offline Installation">PWA - NoSQL</small><br />
+                    <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/Budget-Tracker')}>Git Repo</label>
                 </label>
-                <label className="projgit" onClick={() => window.open('https://github.com/zahid267/Budget-Tracker')}>
-                <strong title="Online/Offline Budget Trackers">Git Repo</strong>
-                </label>
+                <img src={'images/Budget-Tracker-screenshot.png'} alt={'Budget Tracker'}  width={`80%`} height={'100%'} />
             </span>
                          
                      
