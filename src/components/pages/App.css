@@ -17,7 +17,7 @@ header {
     /*set the header font, background-color and text color*/
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #084463;
     color: #ffffff;
     margin: 0;
     top: 0;
@@ -89,6 +89,7 @@ a {/*text color for <a> tag with no underline*/
     width: 100%;
     color: #3c2d92;
     border-bottom: 10px solid gray;
+    background-color: #e7eef1;
 }
 .about h2, .work h2, .contact h2 {
     width: 12%;
