@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1faf0d51.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.f38cb50f.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.f38cb50f.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.f6ed2b50.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.98ca3d2d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.98ca3d2d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/js/2.07068ec5.chunk.js": "/react-portfolio/static/js/2.07068ec5.chunk.js",
     "static/js/2.07068ec5.chunk.js.map": "/react-portfolio/static/js/2.07068ec5.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.1faf0d51.chunk.css.map": "/react-portfolio/static/css/main.1faf0d51.chunk.css.map",
-    "static/js/2.07068ec5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.07068ec5.chunk.js.LICENSE.txt"
+    "static/css/main.f6ed2b50.chunk.css.map": "/react-portfolio/static/css/main.f6ed2b50.chunk.css.map",
+    "static/js/2.07068ec5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.07068ec5.chunk.js.LICENSE.txt",
+    "static/media/Budget-Tracker-screenshot.242c6c01.png": "/react-portfolio/static/media/Budget-Tracker-screenshot.242c6c01.png",
+    "static/media/Fitness_Tracker.ab569dce.gif": "/react-portfolio/static/media/Fitness_Tracker.ab569dce.gif",
+    "static/media/Note_Taker_Demo.24570683.gif": "/react-portfolio/static/media/Note_Taker_Demo.24570683.gif",
+    "static/media/Sports_Pad_Demo.c7bb9017.gif": "/react-portfolio/static/media/Sports_Pad_Demo.c7bb9017.gif",
+    "static/media/code_refactor.6fbad705.png": "/react-portfolio/static/media/code_refactor.6fbad705.png",
+    "static/media/shop-list.8c7851e4.png": "/react-portfolio/static/media/shop-list.8c7851e4.png",
+    "static/media/zahid_pic.4b44e9f8.jpg": "/react-portfolio/static/media/zahid_pic.4b44e9f8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
     "static/js/2.07068ec5.chunk.js",
-    "static/css/main.1faf0d51.chunk.css",
-    "static/js/main.f38cb50f.chunk.js"
+    "static/css/main.f6ed2b50.chunk.css",
+    "static/js/main.98ca3d2d.chunk.js"
   ]
 }
