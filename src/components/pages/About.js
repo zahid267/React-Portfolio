@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import zahid_pic from '../../images/zahid_pic.jpg';
 
 export default function About() {
   const name = 'Muhammad Zahid';
@@ -8,7 +9,7 @@ export default function About() {
         <h2>About Me</h2>
                <div> 
                 <figure>
-                      <img src={'images/zahid_pic.jpg'} alt={name}  width={`200`} height={`200`} />
+                      <img src={zahid_pic} alt={name}  width={`200`} height={`200`} />
                 </figure>
                 
                      <p>

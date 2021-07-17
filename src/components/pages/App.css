@@ -148,6 +148,9 @@ a {/*text color for <a> tag with no underline*/
     background-color:rgb(92, 143, 163);
     margin: 5px;
 }
+.proj img{
+    display:inline-block;
+}
 .projlbl{   /*project label*/
     float: left;
     background-color: #d9dcd6;

@@ -45,7 +45,7 @@ THEN I am presented with text or icon links to the developer’s GitHub.
 
 The following animation shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./assets/20-react-homework-demo-01.gif)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/React_Portfolio.gif)
 
 
 ## Review
@@ -54,7 +54,7 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the functional, deployed application: https://zahid267.github.io/react-portfolio/
 
-* The URL of the GitHub repository :
+* The URL of the GitHub repository : https://github.com/zahid267/react-portfolio
 
 - - -
 
