@@ -6,6 +6,8 @@ import note_taker_demo from '../../images/Note_Taker_Demo.gif';
 import shop_list from '../../images/shop-list.png';
 import fitness_tracker from '../../images/Fitness_Tracker.gif';
 import budget_tracker from '../../images/Budget-Tracker-screenshot.png';
+import movie_mania from '../../images/Movie_Mania_demo.png';
+
 
 export default function Portfolio() {
   return (
@@ -65,7 +67,15 @@ export default function Portfolio() {
                 </label>
                 <img src={budget_tracker} alt={'Budget Tracker'}  width={`72%`} height={'150'} />
             </span>
-                         
+
+            <span className="work">
+                <label className="projlbl" onClick={() => window.open('https://hidden-lake-94798.herokuapp.com/')}>
+                    <strong alt="Movie Mania/search engine">Movie Mania</strong><br />
+                    <small title="Offline Installation">React - mongoDB</small><br />
+                    <label style={{cursor:'pointer'}} onClick={() => window.open('https://github.com/zahid267/Movie-Mania')}>Git Repo</label>
+                </label>
+                <img src={movie_mania} alt={'Movie Mania'}  width={`72%`} height={'150'} />
+            </span>             
                      
       </div>
       

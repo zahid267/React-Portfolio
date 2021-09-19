@@ -10,7 +10,7 @@ export default function Footer() {
                         <ul>
                             <li><strong>Tel# : </strong>613-440-3070</li>
                             <li><strong>Email : </strong>mrzahid@rogers.com</li>
-                            <li><a href="https://zahid267.github.io/prework-about-me/">GitHub</a></li>
+                            <li><a href="https://github.com/zahid267/">GitHub</a></li>
                         </ul>
                     </nav>
                 </div>
